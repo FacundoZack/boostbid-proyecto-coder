@@ -106,7 +106,7 @@ hr {
 
 
 /* = Desktop = */
-@media (min-width: 1360px) {
+@media (min-width: 1328px) {
     nav {
     background-color: #ed8f59;
     display: flex;
@@ -317,7 +317,7 @@ body {
 
 
 /* = Desktop = */
-@media (min-width: 1360px){
+@media (min-width: 1328px){
 
 .productos {
     gap: 40px;
@@ -442,7 +442,7 @@ border-radius: 10px;
 }
 
 /* = Desktop = */
-@media(min-width: 1360px) {
+@media(min-width: 1328px) {
 
 .section__iniciar {
     padding-bottom: 60px;
@@ -526,7 +526,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-@media (min-width: 1360px) {
+@media (min-width: 1328px) {
 
 .ayuda__section {
     padding-bottom: 50px;
@@ -603,7 +603,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-@media (min-width: 1360px) {
+@media (min-width: 1328px) {
 
 .sucursales__section {
     padding-top: 20px;
@@ -658,7 +658,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-@media (min-width: 1360px) {
+@media (min-width: 1328px) {
 
 .agregar__fav {
     height: 500px;
@@ -737,7 +737,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-@media (min-width: 1360px){
+@media (min-width: 1328px){
 
 .oferta__section {
     padding-bottom: 50px;
@@ -908,7 +908,7 @@ i:hover {
 
 
 /* = Desktop = */
-@media (min-width: 1360px) {
+@media (min-width: 1328px) {
 
 footer {
     height: 120px;
@@ -949,19 +949,3 @@ footer {
 }
 }
 /*  ===  TERMINA FOOTER UNIVERSAL MOBILE Y DESKTOP === */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
