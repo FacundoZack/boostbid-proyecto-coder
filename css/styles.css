@@ -9,7 +9,7 @@
 /* === NAV Y HEADER MOBILE Y DESKTOP === */
 
 /* = Mobile = */
-@media (min-width: 394px) {
+@media (min-width: 400px) {
 
 nav {
     background-color: #ed8f59 ;
@@ -106,8 +106,7 @@ hr {
 
 
 /* = Desktop = */
-
-@media (min-width: 1024px) {
+@media (min-width: 1360px) {
     nav {
     background-color: #ed8f59;
     display: flex;
@@ -226,7 +225,7 @@ display: none;
 
 
 /* === BODY Y INDEX MOBILE Y DESKTOP === */
-@media (min-width: 394px) {
+@media (min-width: 400px) {
 
 /* = Mobile = */
 body {
@@ -318,7 +317,7 @@ body {
 
 
 /* = Desktop = */
-@media (min-width: 1024px){
+@media (min-width: 1360px){
 
 .productos {
     gap: 40px;
@@ -360,7 +359,7 @@ body {
 /*  === INICIAR SESION MOBILE Y DESKTOP === */
 
 /* = Mobile = */
-@media (min-width: 394px) {
+@media (min-width: 400px) {
 
 .section__iniciar {
     display: flex;
@@ -443,7 +442,7 @@ border-radius: 10px;
 }
 
 /* = Desktop = */
-@media(min-width: 1024px) {
+@media(min-width: 1360px) {
 
 .section__iniciar {
     padding-bottom: 60px;
@@ -483,7 +482,7 @@ border-radius: 10px;
 /*  === AYUDA MOBILE Y DESKTOP === */
 
 /* = Mobile = */
-@media (min-width:394px) {
+@media (min-width: 400px) {
 
 .ayuda__section {
     display: flex;
@@ -527,7 +526,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-@media (min-width: 1024px) {
+@media (min-width: 1360px) {
 
 .ayuda__section {
     padding-bottom: 50px;
@@ -562,7 +561,7 @@ border-radius: 10px;
 /*  === SUCURSALES MOBILE Y DESKTOP === */
 
 /* = Mbolie = */
-@media (min-width:394px) {
+@media (min-width: 400px) {
 
 .sucursales__section {
     display: flex;
@@ -604,7 +603,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-@media (min-width: 1024px) {
+@media (min-width: 1360px) {
 
 .sucursales__section {
     padding-top: 20px;
@@ -644,7 +643,7 @@ border-radius: 10px;
 /*  === FAVORITOS MOBILE Y DESKTOP === */
 
 /* = Mobile = */
-@media (min-width:394px) {
+@media (min-width: 400px) {
 
 .agregar__fav {
     display: flex;
@@ -659,7 +658,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-@media (min-width: 1024px) {
+@media (min-width: 1360px) {
 
 .agregar__fav {
     height: 500px;
@@ -672,7 +671,7 @@ border-radius: 10px;
 /*  === OFERTAS RELAMPAGO UNIVERSAL MOBILE Y DESKTOP === */
 
 /* = Mobile = */
-@media (min-width: 394px) {
+@media (min-width: 400px) {
 
 .oferta__section {
     display: flex;
@@ -738,8 +737,7 @@ border-radius: 10px;
 
 
 /* = Desktop = */
-
-@media (min-width: 1024px){
+@media (min-width: 1360px){
 
 .oferta__section {
     padding-bottom: 50px;
@@ -769,11 +767,9 @@ border-radius: 10px;
     flex-direction: row;
 }
 
-
 .aside {
     width: 220px;
 }
-
 
 .aside__contenedor {
     padding: 2rem 0 1rem 2rem;
@@ -839,16 +835,11 @@ border-radius: 10px;
 /*  === TERMINA OFERTAS RELAMPAGO UNIVERSAL MOBILE Y DESKTOP === */
 
 
-
-
-
-
-
 /*  === CATEGORIA MOBILE Y DESKTOP === */
 /*  === FOOTER UNIVERSAL MOBILE Y DESKTOP === */
 
 /* = Mobile = */
-@media(min-width:394px) {
+@media(min-width:400px) {
 
 footer {
     height: 80px;
@@ -916,10 +907,8 @@ i:hover {
 }
 
 
-
 /* = Desktop = */
-
-@media (min-width: 1020px) {
+@media (min-width: 1360px) {
 
 footer {
     height: 120px;
