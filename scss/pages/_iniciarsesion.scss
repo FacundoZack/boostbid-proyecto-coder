@@ -1,0 +1,118 @@
+/* = Mobile = */
+@media (min-width: 400px) {
+
+.section__iniciar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.img__iniciar {
+    height: 24px;
+}
+
+.iniciar {
+    background-color: #09667D;
+    text-align: center;
+    height: 250px;
+
+    &__titulo {
+        text-align: center;
+        color: #ffffff;
+        font-size: 1em;
+        border: 1px solid #198f9e;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    &__label {
+        color: #ffffff;
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        width: 300px;
+    }
+}
+
+.input__btn--sesion {
+    padding-inline: 20px;
+    margin-top: 30px;
+    background-color: #169db3;
+    color: #ffffff;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #ffffff;
+        color: $color-primario;
+    }
+    }
+
+.subtitulo {
+    text-align: center;
+    padding: 30px;
+    color: #09667D;
+    font-size: 1em;
+}
+
+.section__registro {
+    background-color: #09667D;
+    text-align: center;
+    height: 400px;
+}
+
+.crear__cuenta {
+    justify-content: center;
+
+    form {
+        padding: 12px;
+    }
+}
+}
+
+
+/* = Desktop = */
+@media(min-width: 1328px) {
+
+.section__iniciar {
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.img__iniciar {
+    height: 40px;
+}
+
+.iniciar {
+    height: 250px;
+    width: 400px;
+    margin-left: 460px;
+
+    &__label {
+        font-size: 1em;
+    }
+
+    &__input--sesion {
+        width: 300px;
+        text-align: center;
+    }
+}
+
+.section__registro {
+    height: 400px;
+    width: 500px;
+    margin-left: 410px;
+    margin-bottom: 40px;
+}
+}

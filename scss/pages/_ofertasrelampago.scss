@@ -1,0 +1,184 @@
+/* = Mobile = */
+@media (min-width: 400px) {
+
+.oferta {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+    &__img {
+        height: 45px;
+    }
+
+    &__titulo {
+        font-size: 0.9em;
+        color: #09667D;
+        text-align: center;
+        text-decoration: underline;
+        padding: 20px;
+    }
+}
+
+.aside__contenedor {
+    display: none;
+}
+
+.select__contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.select__option {
+    display: none;
+
+    &--mb {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.tarjeta {
+
+    &__precio--tachado {
+        text-align: start;
+        font-size: 0.7em;
+        color: grey;
+        text-decoration: line-through;
+    }
+
+    &__porcentaje {
+        color: green;
+        text-decoration: none;
+    }
+
+    &__precio--oferta {
+        font-size: 1.5em;
+        color: #198f9e;
+        text-decoration: underline;
+    }
+}
+
+.boton__oferta {
+    margin: 0;
+    font-size: 0.7em;
+}
+}
+
+
+/* = Tablet = */
+@media (min-width: 768px) {
+
+.tarjeta {
+
+    &__porcentaje {
+        font-size: 0.8em;
+    }
+
+    &__precio--oferta {
+        font-size: 1em;
+    }
+}
+
+.boton__oferta {
+    font-size: 0.6em;
+}
+}
+
+
+/* = Desktop = */
+@media (min-width: 1328px) {
+
+.oferta {
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+    &__img {
+        height: 75px;
+    }
+
+    &__titulo {
+        font-size: 1.3em;
+    }
+}
+
+.aside {
+    width: 220px;
+
+    &__contenedor {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__contenedor {
+        padding: 2rem 0 1rem 2rem;
+        background-clip: content-box;
+        background-color: #e6d6cd9c;
+
+        ul {
+            padding-inline-start: 0;
+        }
+    }
+
+    &__titulo {
+        color: #09667D;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    &__lista {
+        padding: 0;
+    }
+
+    &__link {
+        list-style: none;
+        color: #000000;
+        margin: 10px;
+        font-size: 0.9rem;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            color: #000;
+        }
+    }
+}
+
+.select__contenedor {
+    display: none;
+}
+
+.select__option {
+    display: inline-block;
+    padding: 0.5rem 0 0 2rem;
+}
+
+
+
+.productos__oferta {
+    display: inline-flex;
+    gap: 10px;
+    width: auto;
+    padding: 25px;
+    margin-left: 240px;
+    
+    &--aside {
+        padding: 25px;
+        gap: 10px;
+    }
+}
+
+.boton__oferta {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+}

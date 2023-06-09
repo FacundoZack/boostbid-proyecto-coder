@@ -1,0 +1,129 @@
+@media (min-width: 400px) {
+
+/* = Mobile = */
+
+.carrousel__img {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contenedor__titulos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    a {
+        font-size: 0.7em;
+        margin-left: 10px;
+    }
+}
+
+.titulo__secciones {
+    font-size: 1em;
+    text-align: center;
+}
+
+.ultimas__busquedas {
+    padding-top: 35px;
+}
+
+.productos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 18px;
+    padding: 18px;
+}
+
+.tarjeta {
+    width: 170px;
+    height: 280px;
+    box-shadow: 10px 10px 20px;
+    border: 2px solid black;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__cuerpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid gray;
+    }
+
+    &__titulo {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    &__precio {
+        text-align: center;
+        font-size: 1.2em;
+        color: #198f9e;
+        text-decoration: underline;
+    }
+}
+
+.boton {
+    background-color: $color-primario;
+    color: #09667D;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 10px 8px;
+    border: 1px solid #09667D;
+    border-radius: 10px;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: #09667D;
+        color: white;
+    }
+}
+}
+
+
+/* = Tablet = */
+@media (min-width: 768px) {
+
+.tarjeta {
+    width: 150px;
+    height: 260px;
+}
+}
+
+
+/* = Desktop = */
+@media (min-width: 1328px) {
+
+.contenedor__titulos a {
+    font-size: 1.4em;
+}
+
+.titulo__secciones {
+    font-size: 1.6em;
+}
+
+.productos {
+    gap: 80px;
+}
+
+.tarjeta {
+    width: 240px;
+    height: 350px;
+
+    &__titulo {
+        font-size: 1em;
+    }
+
+    &__precio {
+        font-size: 1.5em;
+    }
+}
+
+.boton {
+    font-size: 1rem;
+}
+}

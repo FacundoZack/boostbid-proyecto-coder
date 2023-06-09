@@ -1,0 +1,22 @@
+/* = Mobile = */
+@media (min-width: 400px) {
+
+    .agregar__fav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 450px;
+    }
+    }
+    
+
+    /* = Desktop = */
+    @media (min-width: 1328px) {
+    
+    .agregar__fav {
+        height: 500px;
+    }
+    }

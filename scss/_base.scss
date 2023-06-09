@@ -1,0 +1,14 @@
+/* Reseteo css, variables, estilos extras (sacar estilos de lista, etc)  */
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+$color-primario:#ed8f59;

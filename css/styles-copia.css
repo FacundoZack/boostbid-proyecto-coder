@@ -1,0 +1,183 @@
+/*  === OFERTAS RELAMPAGO UNIVERSAL MOBILE Y DESKTOP === */
+
+/* = Mobile = */
+@media (min-width: 400px) {
+
+.oferta {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.oferta__img {
+    height: 45px;
+}
+
+.oferta__titulo {
+    font-size: 0.9em;
+    color: #09667D;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.aside__contenedor {
+    display: none;
+}
+
+.select__contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.select__option {
+    display: none;
+}
+
+.select__option--mb {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta__precio--tachado {
+    text-align: start;
+    font-size: 0.7em;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.tarjeta__porcentaje {
+    color: green;
+    text-decoration: none;
+}
+
+.tarjeta__precio--oferta{
+    font-size: 1.5em;
+    color: #198f9e;
+    text-decoration: underline;
+}
+
+.boton__oferta {
+    margin: 0;
+    font-size: 0.7em;
+}
+}
+
+
+/* = Tablet = */
+@media (min-width: 768px) {
+
+.tarjeta__porcentaje {
+    font-size: 0.8em;
+}
+
+.tarjeta__precio--oferta {
+    font-size: 1em;
+}
+
+.boton__oferta {
+    font-size: 0.6em;
+}
+}
+
+
+/* = Desktop = */
+@media (min-width: 1328px){
+
+.oferta {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.oferta__img {
+    height: 75px;
+}
+
+.oferta__titulo {
+    font-size: 1.3em;
+}
+
+
+.aside {
+    width: 220px;
+}
+
+.aside__contenedor {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+.aside__section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.aside__contenedor {
+    padding: 2rem 0 1rem 2rem;
+    background-clip: content-box;
+    background-color: #e6d6cd9c;
+}
+
+.aside__titulo {
+    color: #09667D;
+    font-size: 1em;
+    text-align: center;
+}
+
+.aside__lista {
+    padding: 0;
+}
+
+.aside__contenedor ul {
+    padding-inline-start: 0;
+}
+
+.aside__link {
+    list-style: none;
+    color: #000000;
+    margin: 10px;
+    font-size: 0.9rem;
+}
+
+.aside__link:hover {
+    text-decoration: underline;
+}
+
+.aside__link a {
+    color: #000;
+    
+}
+
+.select__contenedor {
+    display: none;
+}
+
+.select__option {
+    display: inline-block;
+    padding: 0.5rem 0 0 2rem;
+}
+
+.productos__oferta--aside {
+    padding: 25px;
+    gap: 10px;
+}
+
+.productos__oferta {
+    display: inline-flex;
+    gap: 10px;
+    width: auto;
+    padding: 25px;
+    margin-left: 240px;
+}
+
+.boton__oferta {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+}
+/*  === TERMINA OFERTAS RELAMPAGO UNIVERSAL MOBILE Y DESKTOP === */
