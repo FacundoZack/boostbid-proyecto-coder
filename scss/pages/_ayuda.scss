@@ -17,7 +17,7 @@
     &__titulo {
         font-size: 1.2em;
         text-decoration: underline;
-        color: #09667D;
+        color: $color-azul1;
         text-align: center;
         padding: 20px;
     }
@@ -31,13 +31,13 @@
     }
 
     &__li {
-        background-color: #09667D;
+        background-color: $color-azul1;
         list-style: none;
         height: 40px;
         width: 280px;
 
         a {
-            color: #ffffff;
+            color: $color-blanco;
             text-decoration: none;
         }
     }

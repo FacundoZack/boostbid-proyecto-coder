@@ -13,15 +13,15 @@
 }
 
 .iniciar {
-    background-color: #09667D;
+    background-color: $color-azul1;
     text-align: center;
     height: 250px;
 
     &__titulo {
         text-align: center;
-        color: #ffffff;
+        color: $color-blanco;
         font-size: 1em;
-        border: 1px solid #198f9e;
+        border: 1px solid $color-azul2;
         padding-bottom: 20px;
         margin: 0;
     }
@@ -35,7 +35,7 @@
     }
 
     &__label {
-        color: #ffffff;
+        color: $color-blanco;
         font-size: 0.8em;
         display: flex;
         flex-direction: column;
@@ -49,12 +49,12 @@
 .input__btn--sesion {
     padding-inline: 20px;
     margin-top: 30px;
-    background-color: #169db3;
-    color: #ffffff;
+    background-color: $color-celeste;
+    color: $color-blanco;
     border-radius: 10px;
 
     &:hover {
-        background-color: #ffffff;
+        background-color: $color-blanco;
         color: $color-primario;
     }
     }
@@ -62,12 +62,12 @@
 .subtitulo {
     text-align: center;
     padding: 30px;
-    color: #09667D;
+    color: $color-azul1;
     font-size: 1em;
 }
 
 .section__registro {
-    background-color: #09667D;
+    background-color: $color-azul1;
     text-align: center;
     height: 400px;
 }

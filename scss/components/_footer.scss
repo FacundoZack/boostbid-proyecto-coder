@@ -27,11 +27,11 @@ footer {
 }
 
 i {
-    color: #000;
+    color: $color-negro;
     font-size: 1.2em;
 
     &:hover {
-        color: #09667D;
+        color: $color-azul1;
     }
 }
 
@@ -46,16 +46,16 @@ i {
     &__info {
         font-size: 0.7em;
         text-align: center;
-        color: #09667D;
+        color: $color-azul1;
     }
 
     &__ul {
         font-size: 0.59em;
         list-style: none;
-        color: #000;
+        color: $color-negro;
 
         a {
-            color: #000;
+            color: $color-negro;
             text-decoration: none;
 
             &:hover {

@@ -2,7 +2,7 @@
 @media (min-width: 400px) {
 
 nav {
-    background-color: $color-primario ;
+    background-color: $color-primario;
     height: 75px;
 }
 
@@ -35,8 +35,8 @@ nav {
     height: 20px;
     font-size: 0.7em;
     border-radius: 10px;
-    color: white;
-    background-color: #169db3;
+    color: $color-blanco;
+    background-color: $color-celeste;
 }
 
 .carrito__img {
@@ -52,7 +52,7 @@ nav {
 
 lord-icon  {
     height: 30px;
-    color: #09667D;
+    color: $color-azul1;
 }
 
 hr {
@@ -77,7 +77,7 @@ hr {
     }
 
     &__li {
-        background-color: black;
+        background-color: $color-negro;
         height: 17px;
         width: auto;
         font-size: 0.7em;
@@ -142,14 +142,14 @@ nav {
 }
 
 .sesion__link {
-    background-color: #000;
+    background-color: $color-negro;
     color: $color-primario;
     font-size: 1em;
     border-radius: 0.3em;
     text-decoration: none;
 
     &:hover {
-        background-color: white;
+        background-color: $color-blanco;
     }
 }
 
@@ -164,8 +164,8 @@ nav {
 }
 
 .input__btn {
-    color: white;
-    background-color: #169db3;
+    color: $color-blanco;
+    background-color: $color-celeste;
     padding: 0;
 }
 
@@ -193,7 +193,7 @@ hr{
     }
 
     &__li {
-        background-color: black;
+        background-color: $color-negro;
         height: 28px;
 
         a {
@@ -204,7 +204,7 @@ hr{
         }
 
         &:hover {
-            background-color: white;
+            background-color: $color-blanco;
         }
     }
 }

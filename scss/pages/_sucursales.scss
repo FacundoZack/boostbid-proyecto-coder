@@ -22,7 +22,7 @@
     &__titulo {
         font-size: 1.2em;
         text-align: center;
-        color: #09667D;
+        color: $color-azul1;
         margin-bottom: 40px;
         text-decoration: underline;
     }
@@ -71,7 +71,7 @@
     justify-content: space-evenly;
     padding-top: 20px;
     margin-right: 40px;
-    background-color: #169eb325;
+    background-color: $color-azul3;
 
     &__titulo {
         font-size: 1.7em;
