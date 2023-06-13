@@ -11,10 +11,10 @@ body {
   margin: 0 auto;
 }
 
-/* = Mobile = */
-@media (min-width: 400px) {
+/* = Mobile 1 = */
+@media (min-width: 320px) {
   footer {
-    height: 80px;
+    height: 93px;
     background-color: #ed8f59;
     display: flex;
   }
@@ -34,7 +34,7 @@ body {
     padding: 5px;
   }
   i {
-    color: #000;
+    color: #000000;
     font-size: 1.2em;
   }
   i:hover {
@@ -48,21 +48,33 @@ body {
     display: flex;
   }
   .footer__info {
-    font-size: 0.7em;
+    font-size: 0.6em;
     text-align: center;
     color: #09667D;
   }
   .footer__ul {
-    font-size: 0.59em;
+    font-size: 0.55em;
     list-style: none;
-    color: #000;
+    color: #000000;
   }
   .footer__ul a {
-    color: #000;
+    color: #000000;
     text-decoration: none;
   }
   .footer__ul a:hover {
     text-decoration: underline;
+  }
+}
+/* = Mobile 2 = */
+@media (min-width: 400px) {
+  footer {
+    height: 80px;
+  }
+  .footer__info {
+    font-size: 0.7em;
+  }
+  .footer__ul {
+    font-size: 0.59em;
   }
 }
 /* = Tablet = */
@@ -105,11 +117,11 @@ body {
     font-size: 0.8em;
   }
 }
-/* = Mobile = */
-@media (min-width: 400px) {
+/* = Mobile 1 = */
+@media (min-width: 320px) {
   nav {
     background-color: #ed8f59;
-    height: 75px;
+    height: 80px;
   }
   .contenedor__nav--mb {
     display: flex;
@@ -120,7 +132,7 @@ body {
     display: none;
   }
   .logo__principal--mb {
-    height: 35px;
+    height: 25px;
     padding-left: 5px;
   }
   .input__buscador {
@@ -129,11 +141,12 @@ body {
   .input__buscar--mb {
     height: 20px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 0.7em;
   }
   .input__btn--mb {
     height: 20px;
-    font-size: 0.7em;
+    font-size: 0.6em;
     border-radius: 10px;
     color: white;
     background-color: #169db3;
@@ -143,7 +156,7 @@ body {
     display: none;
   }
   .carrito__img--mb {
-    margin-left: 35px;
+    margin-left: 30px;
     height: 25px;
     display: flex;
   }
@@ -170,16 +183,38 @@ body {
     list-style: none;
   }
   .secciones__li {
-    background-color: black;
+    background-color: #000000;
     height: 17px;
     width: auto;
-    font-size: 0.7em;
+    font-size: 0.55em;
     border-radius: 5px;
   }
   .secciones__li a {
     text-decoration: none;
     color: #ed8f59;
     padding: 0;
+  }
+}
+/* = Mobile 2 = */
+@media (min-width: 400px) {
+  nav {
+    height: 75px;
+  }
+  .logo__principal--mb {
+    height: 35px;
+  }
+  .input__buscar--mb {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  .input__btn--mb {
+    font-size: 0.7em;
+  }
+  .carrito__img--mb {
+    margin-left: 35px;
+  }
+  .secciones__li {
+    font-size: 0.7em;
   }
 }
 /* = Tablet = */
@@ -221,7 +256,7 @@ body {
     margin-left: 450px;
   }
   .sesion__link {
-    background-color: #000;
+    background-color: #000000;
     color: #ed8f59;
     font-size: 1em;
     border-radius: 0.3em;
@@ -264,7 +299,7 @@ body {
     margin: 0;
   }
   .secciones__li {
-    background-color: black;
+    background-color: #000000;
     height: 28px;
   }
   .secciones__li a {
@@ -293,7 +328,7 @@ body {
   }
 }
 /* = Mobile = */
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   .ayuda__section {
     display: flex;
     justify-content: center;
@@ -324,7 +359,7 @@ body {
     width: 280px;
   }
   .ayuda__li a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
   }
 }
@@ -353,7 +388,7 @@ body {
   }
 }
 /* = Mobile = */
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   .agregar__fav {
     display: flex;
     flex-direction: column;
@@ -370,8 +405,8 @@ body {
     height: 500px;
   }
 }
-@media (min-width: 400px) {
-  /* = Mobile = */
+/* = Mobile  = */
+@media (min-width: 320px) {
   .carrousel__img {
     width: 100%;
     padding: 0 20px;
@@ -405,7 +440,7 @@ body {
     width: 170px;
     height: 280px;
     box-shadow: 10px 10px 20px;
-    border: 2px solid black;
+    border: 2px solid #000000;
   }
   .tarjeta__img {
     width: 100%;
@@ -414,7 +449,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 1px solid gray;
+    border-top: 1px solid #808080;
   }
   .tarjeta__titulo {
     font-size: 0.9em;
@@ -474,7 +509,7 @@ body {
   }
 }
 /* = Mobile = */
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   .section__iniciar {
     display: flex;
     justify-content: center;
@@ -491,7 +526,7 @@ body {
   }
   .iniciar__titulo {
     text-align: center;
-    color: #ffffff;
+    color: white;
     font-size: 1em;
     border: 1px solid #198f9e;
     padding-bottom: 20px;
@@ -505,7 +540,7 @@ body {
     padding-bottom: 10px;
   }
   .iniciar__label {
-    color: #ffffff;
+    color: white;
     font-size: 0.8em;
     display: flex;
     flex-direction: column;
@@ -517,11 +552,11 @@ body {
     padding-inline: 20px;
     margin-top: 30px;
     background-color: #169db3;
-    color: #ffffff;
+    color: white;
     border-radius: 10px;
   }
   .input__btn--sesion:hover {
-    background-color: #ffffff;
+    background-color: white;
     color: #ed8f59;
   }
   .subtitulo {
@@ -571,7 +606,7 @@ body {
   }
 }
 /* = Mobile = */
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   .oferta {
     display: flex;
     justify-content: center;
@@ -606,11 +641,11 @@ body {
   .tarjeta__precio--tachado {
     text-align: start;
     font-size: 0.7em;
-    color: grey;
+    color: #808080;
     text-decoration: line-through;
   }
   .tarjeta__porcentaje {
-    color: green;
+    color: #008000;
     text-decoration: none;
   }
   .tarjeta__precio--oferta {
@@ -684,7 +719,7 @@ body {
     text-decoration: underline;
   }
   .aside__link a {
-    color: #000;
+    color: #000000;
   }
   .select__contenedor {
     display: none;
@@ -709,8 +744,8 @@ body {
     margin-top: 5px;
   }
 }
-/* = Mbolie = */
-@media (min-width: 400px) {
+/* = Mbolie 1= */
+@media (min-width: 320px) {
   .sucursales {
     display: flex;
     justify-content: center;
@@ -738,6 +773,13 @@ body {
     font-size: 1em;
     text-decoration: underline;
   }
+  .mapa {
+    width: 290px;
+    height: 260px;
+  }
+}
+/* = Mbolie 2= */
+@media (min-width: 400px) {
   .mapa {
     width: 350px;
     height: 370px;

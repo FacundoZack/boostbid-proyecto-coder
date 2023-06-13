@@ -1,8 +1,8 @@
-/* = Mobile = */
-@media(min-width:400px) {
+/* = Mobile 1 = */
+@media(min-width: 320px) {
 
 footer {
-    height: 80px;
+    height: 93px;
     background-color: $color-primario;
     display: flex;
 }
@@ -10,7 +10,7 @@ footer {
 .redes__logo {
     display: none;
 
-    &--mb {
+    &--mb { 
         display: inline-flex;
         gap: 10px;
         height: 40px;
@@ -44,16 +44,16 @@ i {
     display: flex;
 
     &__info {
-        font-size: 0.7em;
+        font-size: 0.6em;
         text-align: center;
         color: $color-azul1;
     }
 
     &__ul {
-        font-size: 0.59em;
+        font-size: 0.55em;
         list-style: none;
         color: $color-negro;
-
+    
         a {
             color: $color-negro;
             text-decoration: none;
@@ -66,6 +66,29 @@ i {
 }
 }
 
+
+
+/* = Mobile 2 = */
+@media(min-width:400px) {
+
+footer {
+    height: 80px;
+}
+
+.footer {
+
+    &__info {
+        font-size: 0.7em;
+    }
+
+    &__ul {
+        font-size: 0.59em;
+        }
+    }
+}
+
+
+
 /* = Tablet = */
 @media (min-width: 768px) {
 
@@ -75,6 +98,9 @@ i {
     }
     }
 
+
+
+    
 /* = Desktop = */
 @media (min-width: 1328px) {
 

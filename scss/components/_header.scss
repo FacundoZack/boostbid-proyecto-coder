@@ -1,9 +1,9 @@
-/* = Mobile = */
-@media (min-width: 400px) {
+/* = Mobile 1 = */
+@media (min-width: 320px) {
 
 nav {
     background-color: $color-primario;
-    height: 75px;
+    height: 80px;
 }
 
 .contenedor__nav--mb {
@@ -16,7 +16,7 @@ nav {
     display: none;
 
     &--mb {
-        height: 35px;
+        height: 25px;
         padding-left: 5px;
     }
 }
@@ -28,12 +28,13 @@ nav {
 .input__buscar--mb {
     height: 20px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 0.7em;
 }
 
 .input__btn--mb {
     height: 20px;
-    font-size: 0.7em;
+    font-size: 0.6em;
     border-radius: 10px;
     color: $color-blanco;
     background-color: $color-celeste;
@@ -44,7 +45,7 @@ nav {
     display: none;
 
     &--mb {
-        margin-left: 35px;
+        margin-left: 30px;
         height: 25px;
         display: flex;
     }
@@ -80,7 +81,7 @@ hr {
         background-color: $color-negro;
         height: 17px;
         width: auto;
-        font-size: 0.7em;
+        font-size: 0.55em;
         border-radius: 5px;
 
         a {
@@ -91,6 +92,46 @@ hr {
     }
 }
 }
+
+
+
+
+/* = Mobile 2 = */
+@media (min-width: 400px) {
+
+nav {
+    height: 75px;
+}
+
+
+.logo__principal--mb {
+    height: 35px;
+}
+
+
+.input__buscar--mb {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.input__btn--mb {
+    font-size: 0.7em;
+}
+
+.carrito__img--mb {
+    margin-left: 35px;
+}
+
+.secciones {
+
+    &__li {
+        font-size: 0.7em;
+    }
+}
+}
+
+
+
 
 /* = Tablet = */
 @media (min-width: 768px) {
@@ -110,6 +151,8 @@ hr {
     gap: 50px;
 }
 }
+
+
 
 
 /* = Desktop = */

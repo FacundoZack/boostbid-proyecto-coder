@@ -1,5 +1,5 @@
-/* = Mbolie = */
-@media (min-width: 400px) {
+/* = Mbolie 1= */
+@media (min-width: 320px) {
 
 .sucursales {
     display: flex;
@@ -34,10 +34,24 @@
 }
 
 .mapa {
+    width: 290px;
+    height: 260px;
+}
+}
+
+
+
+
+/* = Mbolie 2= */
+@media (min-width: 400px) {
+
+.mapa {
     width: 350px;
     height: 370px;
 }
 }
+
+
 
 
 /* = Tablet = */
@@ -52,6 +66,9 @@
     width: 490px;
 }
 }
+
+
+
 
 /* = Desktop = */
 @media (min-width: 1328px) {
