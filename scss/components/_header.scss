@@ -163,6 +163,7 @@ nav {
     display: flex;
     flex-direction: column ;
     height: 160px;
+    width: 100%;
 }
 
 .logo {
@@ -180,7 +181,7 @@ nav {
     }
 
     &__boostbid {
-        margin-left: 450px;
+        margin-left: 35%;
     }
 }
 
@@ -202,7 +203,8 @@ nav {
 
 .input__buscador {
     display: flex;
-    margin-right: 43%;
+    width: 100%;
+    justify-content: center;
     padding-top: 10px;
 }
 
@@ -268,6 +270,40 @@ hr{
         height: 50px;
         padding-bottom: 20px;
         padding-left: 35px;
+    }
+}
+}
+
+/* = Desktop 2= */
+@media (min-width: 2040px) {
+
+.logo__boostbid {
+    margin: 0;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+}
+
+.input__buscador{
+    margin-right: 120px;
+}
+
+.input__buscar {
+    font-size: 1em;
+    width: 300px;
+}
+
+.secciones{
+    padding-left: 200px;
+}
+
+.carrito {
+    display: flex;
+    margin: 0;
+
+    &__img {
+        padding: 0;
+        height: 36px;
     }
 }
 }

@@ -109,10 +109,11 @@ footer {
 }
 
 .redes__logo {
-    display: inline-block;
-    margin-left: 250px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    margin-left: 350px;
     padding-top: 60px;
-    font-size: 1.9em;
+    font-size: 1.4em;
 
     &--mb {
         display: none;
@@ -141,5 +142,16 @@ footer {
         font-size: 0.8em;
     }
 }
+}
 
+/* = Desktop 2= */
+@media (min-width: 2040px) {
+
+.copyright{
+    font-size: 0.7em;
+}
+
+.redes__logo {
+    margin-left: 50%;
+}
 }

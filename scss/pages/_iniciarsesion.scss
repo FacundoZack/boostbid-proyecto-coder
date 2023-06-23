@@ -1,7 +1,7 @@
 /* = Mobile = */
 @media (min-width: 320px) {
 
-.section__iniciar {
+.section__titulo {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
@@ -11,6 +11,7 @@
 .img__iniciar {
     height: 24px;
 }
+
 
 .iniciar {
     background-color: $color-azul1;
@@ -66,7 +67,7 @@
     font-size: 1em;
 }
 
-.section__registro {
+.registro {
     background-color: $color-azul1;
     text-align: center;
     height: 400px;
@@ -82,12 +83,10 @@
 }
 
 
-
-
 /* = Desktop = */
 @media(min-width: 1328px) {
 
-.section__iniciar {
+.section__titulo {
     padding-bottom: 60px;
     padding-top: 20px;
 }
@@ -96,10 +95,14 @@
     height: 40px;
 }
 
+.section__iniciar {
+    display: flex;
+    justify-content: center;
+}
+
 .iniciar {
     height: 250px;
     width: 400px;
-    margin-left: 460px;
 
     &__label {
         font-size: 1em;
@@ -112,9 +115,14 @@
 }
 
 .section__registro {
+    display: flex;
+    justify-content: center;
+}
+
+
+.registro {
     height: 400px;
     width: 500px;
-    margin-left: 410px;
     margin-bottom: 40px;
 }
 }

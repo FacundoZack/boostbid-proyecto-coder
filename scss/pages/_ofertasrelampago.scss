@@ -184,5 +184,23 @@
     font-size: 1em;
     margin-top: 5px;
 }
+}
+
+/* = Desktop 2= */
+@media (min-width: 1800px)  {
+
+.contenedor__ofertas {
+    display: flex;
+    justify-content: center;
+}
+
+
+.productos__oferta{
+    gap: 80px;
+
+    &--aside{
+        gap: 80px;
+    }
+}
 
 }
