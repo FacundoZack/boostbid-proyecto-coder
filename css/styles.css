@@ -389,6 +389,7 @@ body {
     text-align: center;
     justify-content: center;
     gap: 10px;
+    padding: 0;
   }
   .ayuda__li {
     background-color: #09667D;
@@ -446,7 +447,7 @@ body {
   .favorito__agregado {
     display: flex;
     border: 1px solid #808080;
-    background-color: rgba(187, 178, 178, 0.342);
+    background-color: rgba(187, 178, 178, 0.3411764706);
     width: 100%;
   }
   .favorito__producto {
