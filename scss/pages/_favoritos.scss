@@ -1,23 +1,125 @@
 /* = Mobile = */
-@media (min-width: 320px) {
+@media (min-width: 320px) { 
 
-    .agregar__fav {
+.favoritos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+    &__img {
+        height: 24px;
+    }
+}
+
+.h1__fav {
+    font-size: 1em;
+    color: $color-azul1;
+}
+
+.favorito {
+    margin-top: 10px;
+
+    &__agregado {
+        display: flex;
+        border: 1px solid $color-gris1;
+        background-color: rgba(187, 178, 178, 0.342);
+        width: 100%;
+    }
+
+    &__producto {
+        height: 126px;
+        width: 160px;
+        margin-top: 10px;
+    }
+
+    &__descrip {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        height: 450px;
-    }
     }
 
+    &__titulo {
+        font-size: 0.7em;
+    }
+
+    &__precio {
+        color: $color-azul2;
+        text-decoration: underline;
+        font-size: 1.2em;
+    }
+
+    &__envio {
+        color: $color-verde;
+        font-size: 0.6em;
+    }
+
+    &__eliminar {
+        margin-top: 25px;
+        font-size: 0.6em;
+    }
+}
+
+.boton__fav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+}
+
+/* = Tablet = */
+@media (min-width: 768px) {
+
+.favorito {
+
+    &__titulo {
+        font-size: 1em;
+    }
+
+    &__envio {
+        font-size: 0.8em;
+    }
+
+    &__eliminar {
+        font-size: 0.7em;
+    }
+}
+}
+
+/* = Desktop = 236 152*/
+@media (min-width: 1328px) {
+
+.favoritos__img {
+    height: 35px;
+}
+
+.h1__fav {
+    font-size: 1em;
+    text-align: center;
+}
 
 
-    /* = Desktop = */
-    @media (min-width: 1328px) {
-    
-    .agregar__fav {
-        height: 500px;
+.favorito {
+
+    &__producto {
+        height: 152px;
+        width: 236px;
     }
+
+    &__titulo {
+        font-size: 1.5em;
     }
+
+    &__precio {
+        font-size: 1.5em;
+    }
+
+    &__envio {
+        font-size: 1em;
+    }
+
+    &__eliminar{
+        font-size: 0.9em;
+    }
+}
+}

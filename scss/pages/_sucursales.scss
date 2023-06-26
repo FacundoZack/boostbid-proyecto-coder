@@ -12,6 +12,68 @@
     }
 }
 
+.section__dreccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.envios {
+    background-color: $color-azul2;
+    text-align: center;
+    padding: 10px 0px 20px 0;
+
+    &__p {
+        color: $color-blanco;
+        font-size: 1.8em;
+    }
+
+    &__btn {
+        color: $color-blanco;
+        background-color: transparent;
+        border-color: $color-blanco;
+        
+        &:hover {
+                background-color: $color-blanco;
+                transition: 1ms;
+                color: $color-negro;
+            }
+
+        a {
+            text-decoration: none;
+            color: $color-blanco;
+
+            &:hover {
+                color: $color-negro;
+            }
+    }
+    }
+}
+
+
+.ubicacion {
+    text-align: center;
+    margin: 50px;
+
+    &__titulo {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        color: $color-azul1;
+    }
+
+    &__transporte {
+        color: $color-gris1;
+        font-size: 1em;
+    }
+
+    &__lineas {
+        color: $color-gris1;
+        font-size: 0.8em    ;
+    }
+}
+
 .iframe {
     display: flex;
     flex-direction: column;
@@ -41,7 +103,6 @@
 
 
 
-
 /* = Mbolie 2= */
 @media (min-width: 400px) {
 
@@ -53,9 +114,24 @@
 
 
 
-
 /* = Tablet = */
 @media (min-width: 768px) {
+
+.envios{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    &__p {
+        font-size: 2.3em;
+    }
+}
+
+.como__llegar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 .iframe {
     justify-content: center;
@@ -103,4 +179,27 @@
     width: 600px;
     height: 450px;
 }
+}
+
+/* = Desktop = */
+@media(min-width: 2040px) {
+
+.como__llegar {
+    justify-content: space-around;
+}
+
+    .ubicacion{
+
+        &__titulo {
+            font-size: 3em;
+        }
+
+        &__transporte {
+            font-size: 1.8em;
+        }
+
+        &__lineas {
+            font-size: 1em;
+        }
+    }
 }
