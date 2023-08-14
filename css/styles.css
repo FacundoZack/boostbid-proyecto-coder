@@ -1039,5 +1039,70 @@ body {
     font-size: 1em;
   }
 }
+@media (min-width: 1328px) {
+  .carritos {
+    padding-top: 10px;
+  }
+  .carritos__producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #ed8f59;
+    background-color: rgba(187, 178, 178, 0.3411764706);
+  }
+  .carritos__valores {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .carritos__precios {
+    margin-top: 50px;
+    font-size: 2em;
+  }
+  .producto {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+  }
+  .producto__restar {
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+  }
+  .producto__cantidad {
+    margin-top: 16px;
+    padding-inline: 10px;
+    background-color: #09667D;
+    color: white;
+  }
+  .producto__sumar {
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+  }
+  .precio {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .precio__cuenta {
+    font-size: 1.5em;
+  }
+  .precio__total {
+    font-size: 1.5em;
+  }
+  .comprar {
+    display: flex;
+    justify-content: end;
+  }
+  .comprar__boton {
+    display: flex;
+    justify-content: end;
+    border-color: #ed8f59;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

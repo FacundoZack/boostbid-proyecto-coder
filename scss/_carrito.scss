@@ -1,0 +1,79 @@
+@media (min-width: 1328px) {
+
+    .carritos {
+        padding-top: 10px;
+        
+        &__producto {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 2px solid $color-primario;
+            background-color: $color-gris3  ;
+        }
+
+        &__valores {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        &__precios{
+            margin-top: 50px;
+            font-size: 2em;
+        }
+    }
+
+    .producto{
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+        align-items: center;
+
+        &__restar{
+        border: none; 
+        background-color: transparent;
+        font-size: 2em;
+        }
+
+        &__cantidad {
+            margin-top: 16px;
+            padding-inline: 10px;
+            background-color: $color-azul1;
+            color: $color-blanco;
+        }
+
+        &__sumar {
+            border: none; 
+            background-color: transparent;
+            font-size: 2em;
+        }
+    }
+
+    .precio {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+
+        &__cuenta {
+            font-size: 1.5em;
+        }
+
+        &__total {
+            font-size: 1.5em;
+        }
+    }
+
+    .comprar {
+        display: flex;
+        justify-content: end;
+
+
+        &__boton {
+            display: flex;
+            justify-content: end;
+            border-color: $color-primario;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+    }
+}
